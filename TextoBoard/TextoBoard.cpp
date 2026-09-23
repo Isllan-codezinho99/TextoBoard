@@ -60,13 +60,14 @@ void adicionar_lista(const std::string& palavra, const int& limite) {
 
 // Programa principal
 int main() {
+    
     int escolhas, escolher;
     std::string palavra;
     int maximo;
     std::string sim_nao;
 
     while (true) {
-       
+        listaaa.clear();
         std::cout << "Ola, voce deseja limpar a area de transferencia?\n" << std::flush;
         std::cout << "Sim para limpar e Nao para continuar\n" << std::flush;
 
@@ -117,7 +118,7 @@ int main() {
 
             adicionar_lista(palavra, maximo);
 
-            std::cout << "Voce deseja adicionar mais ou acionar o motor logo?(1 e 2, 2 para motor e 1 para add)\n" << std::flush;
+            std::cout << "Voce deseja adicionar acionar o motor logo?( 2 para motor)\n" << std::flush;
             std::cin >> escolher;
 
             std::cin.ignore(10000, '\n');

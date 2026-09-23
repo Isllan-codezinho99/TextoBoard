@@ -19,9 +19,4 @@
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="log_de_palavras.txt">
-      <Filter>Arquivos de Origem</Filter>
-    </Text>
-  </ItemGroup>
 </Project>
